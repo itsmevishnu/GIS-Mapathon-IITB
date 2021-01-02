@@ -1,0 +1,29 @@
+<VRTDataset rasterXSize="3528" rasterYSize="3468">
+  <SRS>GEOGCS["WGS 84",DATUM["unknown",SPHEROID["WGS84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433]]</SRS>
+  <GeoTransform>  6.8099999999999994e+01,  8.3333330000000001e-03,  0.0000000000000000e+00,  3.5600000000000001e+01,  0.0000000000000000e+00, -8.3333330000000001e-03</GeoTransform>
+  <VRTRasterBand dataType="Int16" band="1" subClass="VRTRawRasterBand">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">22</MDI>
+      <MDI key="STATISTICS_MEAN">12.84553809665</MDI>
+      <MDI key="STATISTICS_MINIMUM">1</MDI>
+      <MDI key="STATISTICS_STDDEV">5.8100184684371</MDI>
+    </Metadata>
+    <Description>IND_msk_cov</Description>
+    <NoDataValue>-9999</NoDataValue>
+    <Histograms>
+      <HistItem>
+        <HistMin>0.5227272727272727</HistMin>
+        <HistMax>22.47727272727273</HistMax>
+        <BucketCount>22</BucketCount>
+        <IncludeOutOfRange>0</IncludeOutOfRange>
+        <Approximate>1</Approximate>
+        <HistCounts>3075|9840|89|1133|0|0|0|61|429|0|1264|7490|2057|733|530|37942|997|0|791|2682|1282|438</HistCounts>
+      </HistItem>
+    </Histograms>
+    <SourceFilename relativeToVRT="1">IND_msk_cov.gri</SourceFilename>
+    <ImageOffset>0</ImageOffset>
+    <PixelOffset>2</PixelOffset>
+    <LineOffset>7056</LineOffset>
+    <ByteOrder>LSB</ByteOrder>
+  </VRTRasterBand>
+</VRTDataset>
